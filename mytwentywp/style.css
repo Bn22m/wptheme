@@ -1,0 +1,146 @@
+/*
+Theme Name: mytwentywp
+Author: Brian
+Author URI: https://inovationindaba.wordpress.com/
+Tags: Custom themes, wigdets, menus, wordpress, apache, MySQL, PHP.
+Version: 1.0
+*/
+
+@import url("css/main.css");
+
+header {
+  background-color: #8071;
+  border: 5px solid #777;
+  height: auto;
+  top: 0;
+  z-index: 1;
+  display:grid;
+}
+
+.navbar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbar:hover {
+  background-color: red;
+}
+
+.navbar2:hover {
+  background-color: green;
+}
+
+.navbar1 ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar1 ul li a {
+  display: block;
+  padding: 0;
+  border-style: dashed;
+  text-decoration: none;
+  width: 100%;
+  line-height: 30px;
+}
+
+.navbar2 a {
+  display: block;
+  padding: 0;
+  border-style: dashed;
+  text-decoration: none;
+  width: 100%;
+  line-height: 30px;
+}
+
+.navbar1 ul:before, .navbar1 ul:after {
+  content: "";
+  display: table;
+}
+
+.navbar1 ul:after {
+  clear: both;
+}
+
+.navbar1 ul {
+  *zoom: 1
+}
+
+.navbar1 ul li {
+  list-style: none;
+  float: left;
+  margin-right: 3px;
+}
+
+navbar1 ul li a:visited {
+  display: block;
+  padding: 10px 18px;
+  border: 2px solid #daf1f0;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.navbar1 ul li a:hover {
+  background-color: yellow;
+}
+
+.navbar1 {
+  float: right;
+}
+
+.navbar2 {
+  float: left;
+}
+
+.navinfo {
+  float: left;
+  width: 45%;
+}
+
+.info {
+  float: left;
+  width: 45%;
+}
+
+.info img {
+  width: 25%;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    width: 100%;
+    height: auto;
+  }
+
+  .info {
+    width: 100%;
+  }
+  .charts{
+    -webkit-transform: rotate(90deg) translate(-9px, 6px);
+    transform: rotate(90deg) translate(-9px, 6px);
+  }
+  header{
+    position: relative;
+  }
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navbar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#dvsize {
+  background-color: #ffeebb;
+}
+
+footer {
+  background-color: #000000;
+}

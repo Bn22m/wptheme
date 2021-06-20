@@ -1,0 +1,68 @@
+/*
+main.css
+Author: Brian
+*/
+
+textarea {
+    width: 100%;
+    min-height: 100px;
+}
+
+input:focus, textarea:focus {
+    color: goldenrod;
+}
+
+.dvregister {
+  border: 10px solid #777;
+  width: auto;
+  padding: 100px;
+  margin-bottom: 50px;
+  background-color: #d4ff39;
+}
+
+.frmreg {
+   min-width: 100px;
+   max-width: 500px;
+   width: 90%;
+   background: #ffffc8;
+}
+
+#message {
+  border: 10px solid #777;
+  padding: 100px;
+  margin-bottom: 50px;
+}
+
+#messages {
+  border: 10px solid #777;
+  height: 600px;
+  padding: 100px;
+  overflow: scroll;
+  margin-bottom: 50px;
+}
+
+form > div {
+    position: relative;
+}
+
+form {
+    width: 100%;
+    margin: 2em auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    border: groove 10px green;
+}
+
+.cinpt {
+  width: 100%;
+}
+
+body {
+    background-color: #ffffd8;
+}
+
+hr {
+    border: 1px solid blue;
+		border-top: solid 10px #e8e2e3;
+}
